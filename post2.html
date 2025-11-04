@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Responsive Design - My Web Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Web Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <article class="post-content">
+            <h1>Understanding Responsive Design</h1>
+            <p class="post-meta">Published on November 3, 2025</p>
+
+            <p>
+                In today's digital landscape, people access websites from a wide variety of devices -
+                smartphones, tablets, laptops, and desktop computers. Responsive design ensures your
+                website looks great and functions well on all of them.
+            </p>
+
+            <h2>What is Responsive Design?</h2>
+            
+            <p>
+                Responsive design is an approach to web development that makes web pages render well
+                on different screen sizes and devices. Instead of creating separate versions of your
+                site for mobile and desktop, you create one flexible design that adapts.
+            </p>
+
+            <h2>Key Principles of Responsive Design</h2>
+            
+            <ul>
+                <li><strong>Flexible Layouts:</strong> Use relative units like percentages instead of fixed pixels</li>
+                <li><strong>Flexible Images:</strong> Ensure images scale appropriately within their containers</li>
+                <li><strong>Media Queries:</strong> Apply different CSS styles based on device characteristics</li>
+                <li><strong>Mobile-First Approach:</strong> Start with mobile design, then enhance for larger screens</li>
+            </ul>
+
+            <h2>The Viewport Meta Tag</h2>
+            
+            <p>
+                The viewport meta tag is essential for responsive design. It tells mobile browsers
+                how to adjust the page's dimensions and scaling:
+            </p>
+
+            <p>
+                <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>
+            </p>
+
+            <h2>Using Media Queries</h2>
+            
+            <p>
+                Media queries are a CSS feature that lets you apply styles conditionally based on
+                device characteristics like screen width. This allows you to create breakpoints
+                where your layout changes to better suit different screen sizes.
+            </p>
+
+            <h2>Testing Your Responsive Design</h2>
+            
+            <p>
+                Always test your website on real devices when possible. Browser developer tools
+                include device emulation features, but nothing beats testing on actual phones,
+                tablets, and computers.
+            </p>
+
+            <p>
+                Remember that responsive design isn't just about screen size - it's about creating
+                the best possible experience for your users, regardless of how they access your site.
+            </p>
+        </article>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Web Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
